@@ -7,6 +7,9 @@
 #ifndef Node_h
 #define Node_h
 
+#include <stdio.h>
+#include <stdlib.h>
+
 struct node
 {
     int data;
@@ -52,7 +55,5 @@ int dequeue(NodePtr* head, NodePtr* tail){
    printf("Empty queue");
    return 0;
 }
-
-
 
 #endif
