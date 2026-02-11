@@ -40,8 +40,8 @@ int dequeue_struct(Queue *q){
   free(t);
     return value;
    }
-   printf("Empty queue");
-   return 0;
+  //  printf("Empty queue");
+   return -1;
 }
 
 #endif
