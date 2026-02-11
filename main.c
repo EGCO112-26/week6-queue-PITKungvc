@@ -16,8 +16,8 @@ int main(int argc , char **argv) {
     if(strcmp(argv[i],"x")==0){
         x = dequeue_struct(&q);
 
-        if(x == -1) printf("dequeing x\n");
-        else        printf("dequeing %d\n", x);
+        // if(x == -1) printf("dequeing x\n");
+        // else        printf("dequeing %d\n", x);
 
     } else {
         enqueue_struct(&q, atoi(argv[i]));
